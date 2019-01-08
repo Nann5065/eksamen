@@ -139,23 +139,6 @@ html {
 
 }
 
-nav h1 {
-
-    position: relative;
-    top: 10vw;
-    left: 20vw;
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1vw 10vw 1vw 0.5vw;
-    font-family: 'Thasadith', sans-serif;
-}
-
-
-
-
-
-
 
 
 
@@ -177,6 +160,9 @@ nav h1 {
     display: flex;
 }
 
+.column:last-child {
+    border-right: none;
+}
 
 /**** STILARTSITE-DADAISME********/
 
@@ -227,7 +213,7 @@ nav h1 {
 
 
 
-/***** BUTTON TIL STILARTSITE******/
+/***** BUTTON TIL SITES******/
 
 #stilartsite_dada a {
     text-align: center;
@@ -246,9 +232,17 @@ button {
 
 
 #stilartsite_dada button:hover {
-    background-color: yellow;
+    background-color: #ddd;
 }
 
+
+#prototype button:hover {
+    background-color: #ddd;
+}
+
+#redesign button:hover {
+    background-color: #ddd;
+}
 
 /**********REDESIGN***********/
 
