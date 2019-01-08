@@ -42,7 +42,6 @@ a {
 #menuknap {
     display: inline-block;
     outline: none;
-    transform: rotate (90deg);
 
 
 
@@ -183,7 +182,6 @@ html {
 .center {
     margin-left: auto;
     margin-right: auto;
-    max-width: 68s0px;
     width: 100%;
 
 
